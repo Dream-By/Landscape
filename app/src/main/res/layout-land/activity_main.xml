@@ -31,7 +31,7 @@
                     android:id="@+id/button1"
                     android:layout_height="wrap_content"
                     android:layout_width="match_parent"
-                    android:text="Первая кнопка"
+                    android:text="Узнать ориентацию"
                     android:onClick="OnClick"
                     />
 
@@ -39,7 +39,8 @@
                     android:id="@+id/button2"
                     android:layout_height="wrap_content"
                     android:layout_width="match_parent"
-                    android:text="Вторая кнопка"/>
+                    android:text="Что это было?"
+                    android:onClick="OnRotation"/>
             </TableRow>
 
             <TableRow>
@@ -48,7 +49,8 @@
                     android:id="@+id/button3"
                     android:layout_height="wrap_content"
                     android:layout_width="match_parent"
-                    android:text="Третья кнопка"/>
+                    android:text="Меняем ориентацию"
+                    android:onClick="OnLand"/>
 
                 <Button
                     android:id="@+id/button4"
