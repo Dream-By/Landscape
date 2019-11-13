@@ -31,7 +31,9 @@
                     android:id="@+id/button1"
                     android:layout_height="wrap_content"
                     android:layout_width="match_parent"
-                    android:text="Первая кнопка"/>
+                    android:text="Первая кнопка"
+                    android:onClick="OnClick"
+                    />
 
                 <Button
                     android:id="@+id/button2"
