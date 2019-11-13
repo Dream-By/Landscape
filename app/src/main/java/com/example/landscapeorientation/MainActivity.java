@@ -26,11 +26,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        mButton = (Button)findViewById(R.id.button3);
-
-        //текст по умолчанию
-        mButton.setText(ORIENTATION_LANDSCAPE);
         }
 
         private String getScreenOrientation(){
